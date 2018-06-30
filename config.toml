@@ -1,8 +1,20 @@
+baseURL = "https://just4tuts.github.io/"
+theme = "hugo-goa"
+author = "M.G"
+title = "Another Hugo Blog"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+
 [params]
-author = "bugnofree"
-intro = "Startup Guru Extraordinaire"
+author = "M.G"
+intro = "But nobody is not nothing"
 description = "Description"
-authorimage = "mg.jpg" 
+authorimage = "mg.jpg"
 dateformat = "Jan 2, 2006"
 
 [params.meta]
@@ -18,7 +30,7 @@ stackoverflow = "<username>"
 email = "you@example.com"
 
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "copyright @ Rajesh Shenoy"
 poweredby = true
 highlightjs = true
 
@@ -26,9 +38,4 @@ highlightjs = true
     name = "blog"
     weight = 100
     identifier = "blog"
-    url = "/blog/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
+    url = "/post/"
